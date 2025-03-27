@@ -11,13 +11,15 @@
   }
 }
 
+/* Greeting Text */
 #greeting {
   font-family: sans-serif;
-  font-size: 1.5rem; /* Default for mobile */
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
 
+/* Responsive Scaling */
 @media (min-width: 640px) {
   #greeting {
     font-size: 2rem;
@@ -30,6 +32,7 @@
   }
 }
 
+/* Bordered Container */
 .blue-border {
   position: relative;
   padding: 1.5rem;
@@ -37,9 +40,10 @@
   display: inline-block;
 }
 
+/* Avatar Border */
 .green-border {
   position: relative;
-  padding: 1.5rem;
+  padding: 1rem;
   border: 2px solid #a6f6ff;
   display: inline-block;
 }
@@ -47,13 +51,14 @@
 /* Corner Squares */
 .corner {
   position: absolute;
-  width: 8px;
+  width: 8px; /* Increase size slightly for clarity */
   height: 8px;
   border: 2px solid #6499e9;
   background: white;
+  box-sizing: border-box; /* Ensures border doesn't distort the shape */
 }
 
-/* Positioning */
+/* Corner Positions */
 .top-left {
   top: -6px;
   left: -6px;
@@ -71,6 +76,7 @@
   right: -6px;
 }
 
+/* Apply Geist Font */
 body {
   font-family: "Geist", sans-serif;
 }
