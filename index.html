@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samarth Gambhir | Portfolio</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/avatar.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-white text-gray-900 flex justify-center items-center min-h-screen"
+  >
+    <!-- Black Screen Intro (Starts Instantly) -->
+    <div
+    id="intro"
+    class="fixed inset-0 bg-black flex justify-center items-center text-white text-xl sm:text-2xl md:text-4xl font-bold z-50 text-center px-4"
+  >
+    <span id="greeting"></span>
+  </div>
+  
+  <!-- Main Content (Hidden Initially) -->
+  <main id="portfolio" class="text-center opacity-0 px-4">
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold animate-fade-in">
+      Welcome to My Portfolio
+    </h1>
+  </main>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
